@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/flux-api-api",
+  "version": "1.0.0",
+  "description": "flux-api HTTP API · Express wrapper around @ai-native-solutions/flux-api-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["flux-api", "api", "http", "express", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/flux-api-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "@ai-native-solutions/flux-api-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
